@@ -18,7 +18,7 @@ Package.onUse(function(api) {
   api.use('3stack:bignumber@2.0.0', 'client');
   // api.use('underscorestring:underscore.string@3.1.1', 'client');
 
-  api.use('moac:chain3@0.1.2', 'client');
+  api.use('moaclib:chain3@0.1.2', 'client');
   api.use('moaclib:tools@0.1.0', 'client');
   api.use('frozeman:animation-helper@0.2.5', 'client');
   api.use('frozeman:storage@0.1.8', 'client');
