@@ -7,7 +7,7 @@ Its recommended to use these elements along with the [Ðapp styles](https://gith
 
 ## Installation
 
-    $ meteor add moac:elements
+    $ meteor add moaclib:elements
 
 ## Usage
 
@@ -15,11 +15,11 @@ The following elements can be use anywhere in your dapp.
 
 Additionally this package exposes the following packages:
 
-- [moac:tools](https://atmospherejs.com/moac/tools), which gives you `McTools`.
+- [moaclib:tools](https://atmospherejs.com/moac/tools), which gives you `McTools`.
 - [frozeman:template-var](https://atmospherejs.com/frozeman/template-var), which gives you the `TemplateVar.set()/.get()` functions which can be used to get values from the select account, or address input element.
 
 Note that these packages will only be exposed to your client part of your dapp,
-if you want to use e.g. `McTools` on the server side add the package manually using `$ meteor add moac:tools`.
+if you want to use e.g. `McTools` on the server side add the package manually using `$ meteor add moaclib:tools`.
 
 ***
 
@@ -157,7 +157,7 @@ var myAccounts = [{
 {{> dapp_selectAccount accounts=myAccounts}}
 ```
 
-This element works also well with the [moac:accounts](https://atmospherejs.com/moac/accounts) package, which provides you with `EthAccounts.find().fetch()` to get all current accounts.
+This element works also well with the [moaclib:accounts](https://atmospherejs.com/moac/accounts) package, which provides you with `EthAccounts.find().fetch()` to get all current accounts.
 
 **Setting size**
 
@@ -202,7 +202,7 @@ and the tool will display whats the current medium gas price based on the given 
 
 The user then can adjust the fee up and down by a factor of ~1.8.
 
-*Hint*: To get the gas price reactivly you can use the [moac:blocks](https://atmospherejs.com/moac/blocks) package's `McBlocks.latest.gasPrice` and pass it to the `gasPrice` property.
+*Hint*: To get the gas price reactivly you can use the [moaclib:blocks](https://atmospherejs.com/moac/blocks) package's `McBlocks.latest.gasPrice` and pass it to the `gasPrice` property.
 
 
 ```html
