@@ -1,7 +1,7 @@
 Package.describe({
   name: 'moaclib:elements',
   summary: 'Basic elements for Dapps',
-  version: '0.1.0',
+  version: '0.1.1',
   git: 'http://github.com/innowells/meteor-package-elements'
 });
 
